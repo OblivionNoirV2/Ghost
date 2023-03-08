@@ -1,0 +1,8 @@
+You get a set number of moves, computer will try to mirror it. 
+Blockades or other grid elements shift every turn, in a consistent cycle. 
+The shifts are always consistent, like 8 different phases. 
+Multiple color squares, each with different meanings. 
+You can move from anywhere starting at the grid’s edge, special color indicates your pieces. 
+The goal is to eliminate the leader of the other side. 
+All other pieces become yours when touched. 
+Your pieces are each linked to a number, say 1-20, which is how the computer keeps track of the mirroring. Pieces stolen from the other side are not mirrored. 
