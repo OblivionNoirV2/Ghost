@@ -67,8 +67,6 @@
             this.grid.Location = new System.Drawing.Point(0, 0);
             this.grid.Name = "grid";
             this.grid.RowCount = 20;
-            this.grid.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.666667F));
-            this.grid.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.111111F));
             this.grid.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
             this.grid.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
             this.grid.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
@@ -87,7 +85,9 @@
             this.grid.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
             this.grid.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
             this.grid.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
-            this.grid.Size = new System.Drawing.Size(800, 450);
+            this.grid.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
+            this.grid.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
+            this.grid.Size = new System.Drawing.Size(803, 450);
             this.grid.TabIndex = 0;
             this.grid.Paint += new System.Windows.Forms.PaintEventHandler(this.grid_Paint);
             // 
@@ -99,7 +99,7 @@
             this.pictureBox1.BackColor = System.Drawing.Color.AliceBlue;
             this.pictureBox1.Location = new System.Drawing.Point(3, 3);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(34, 15);
+            this.pictureBox1.Size = new System.Drawing.Size(34, 16);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -111,7 +111,7 @@
             this.pictureBox2.BackColor = System.Drawing.Color.Black;
             this.pictureBox2.Location = new System.Drawing.Point(43, 3);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(34, 15);
+            this.pictureBox2.Size = new System.Drawing.Size(34, 16);
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
             // 
